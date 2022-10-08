@@ -22,6 +22,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BRANCH: dev
+          LINTER_RULES_PATH: /
           VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_JSX: true
           VALIDATE_CSS: true
